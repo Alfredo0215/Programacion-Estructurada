@@ -19,6 +19,8 @@ namespace PE26A_FSA_
     //Diálogo del menú principal del proyecto final.
     //FSA. 04/02/26
     //-------------------------------------------------------------------------
+
+    //Commit prueba.
     public partial class DlgPrincipal : Form
     {
 
