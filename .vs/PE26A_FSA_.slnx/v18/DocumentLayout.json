@@ -1,33 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\flete\\Programacion-Estructurada\\",
+  "WorkspaceRootPath": "C:\\Users\\flete\\OneDrive\\Escritorio\\Ingenier\u00EDa\\pe\\PE26A_FSA_\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FB00BC5B-D136-4068-8024-631C7289DC5B}|PE26A_FSA_\\PE26A_FSA_.csproj|C:\\Users\\flete\\Programacion-Estructurada\\pe26a_fsa_\\dlgprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB00BC5B-D136-4068-8024-631C7289DC5B}|PE26A_FSA_\\PE26A_FSA_.csproj|solutionrelative:pe26a_fsa_\\dlgprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FB00BC5B-D136-4068-8024-631C7289DC5B}|PE26A_FSA_\\PE26A_FSA_.csproj|C:\\Users\\flete\\OneDrive\\Escritorio\\Ingenier\u00EDa\\pe\\PE26A_FSA_\\pe26a_fsa_\\dlgmesapracticas4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB00BC5B-D136-4068-8024-631C7289DC5B}|PE26A_FSA_\\PE26A_FSA_.csproj|solutionrelative:pe26a_fsa_\\dlgmesapracticas4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FB00BC5B-D136-4068-8024-631C7289DC5B}|PE26A_FSA_\\PE26A_FSA_.csproj|C:\\Users\\flete\\Programacion-Estructurada\\pe26a_fsa_\\dlgmesapracticas1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB00BC5B-D136-4068-8024-631C7289DC5B}|PE26A_FSA_\\PE26A_FSA_.csproj|solutionrelative:pe26a_fsa_\\dlgmesapracticas1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FB00BC5B-D136-4068-8024-631C7289DC5B}|PE26A_FSA_\\PE26A_FSA_.csproj|c:\\users\\flete\\onedrive\\escritorio\\ingenier\u00EDa\\pe\\pe26a_fsa_\\pe26a_fsa_\\dlgmesapracticas4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FB00BC5B-D136-4068-8024-631C7289DC5B}|PE26A_FSA_\\PE26A_FSA_.csproj|solutionrelative:pe26a_fsa_\\dlgmesapracticas4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FB00BC5B-D136-4068-8024-631C7289DC5B}|PE26A_FSA_\\PE26A_FSA_.csproj|C:\\Users\\flete\\Programacion-Estructurada\\pe26a_fsa_\\helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FB00BC5B-D136-4068-8024-631C7289DC5B}|PE26A_FSA_\\PE26A_FSA_.csproj|C:\\Users\\flete\\OneDrive\\Escritorio\\Ingenier\u00EDa\\pe\\PE26A_FSA_\\pe26a_fsa_\\helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FB00BC5B-D136-4068-8024-631C7289DC5B}|PE26A_FSA_\\PE26A_FSA_.csproj|solutionrelative:pe26a_fsa_\\helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FB00BC5B-D136-4068-8024-631C7289DC5B}|PE26A_FSA_\\PE26A_FSA_.csproj|C:\\Users\\flete\\Programacion-Estructurada\\pe26a_fsa_\\dlgmesapracticas2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FB00BC5B-D136-4068-8024-631C7289DC5B}|PE26A_FSA_\\PE26A_FSA_.csproj|solutionrelative:pe26a_fsa_\\dlgmesapracticas2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FB00BC5B-D136-4068-8024-631C7289DC5B}|PE26A_FSA_\\PE26A_FSA_.csproj|c:\\users\\flete\\programacion-estructurada\\pe26a_fsa_\\dlgmesapracticas2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB00BC5B-D136-4068-8024-631C7289DC5B}|PE26A_FSA_\\PE26A_FSA_.csproj|solutionrelative:pe26a_fsa_\\dlgmesapracticas2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FB00BC5B-D136-4068-8024-631C7289DC5B}|PE26A_FSA_\\PE26A_FSA_.csproj|C:\\Users\\flete\\Programacion-Estructurada\\pe26a_fsa_\\dlgprincipal.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB00BC5B-D136-4068-8024-631C7289DC5B}|PE26A_FSA_\\PE26A_FSA_.csproj|solutionrelative:pe26a_fsa_\\dlgprincipal.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FB00BC5B-D136-4068-8024-631C7289DC5B}|PE26A_FSA_\\PE26A_FSA_.csproj|C:\\Users\\flete\\Programacion-Estructurada\\pe26a_fsa_\\dlgprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{FB00BC5B-D136-4068-8024-631C7289DC5B}|PE26A_FSA_\\PE26A_FSA_.csproj|C:\\Users\\flete\\OneDrive\\Escritorio\\Ingenier\u00EDa\\pe\\PE26A_FSA_\\pe26a_fsa_\\dlgprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{FB00BC5B-D136-4068-8024-631C7289DC5B}|PE26A_FSA_\\PE26A_FSA_.csproj|solutionrelative:pe26a_fsa_\\dlgprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -38,34 +26,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "DlgPrincipal.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\flete\\Programacion-Estructurada\\PE26A_FSA_\\DlgPrincipal.cs",
+              "DocumentMoniker": "C:\\Users\\flete\\OneDrive\\Escritorio\\Ingenier\u00EDa\\pe\\PE26A_FSA_\\PE26A_FSA_\\DlgPrincipal.cs",
               "RelativeDocumentMoniker": "PE26A_FSA_\\DlgPrincipal.cs",
-              "ToolTip": "C:\\Users\\flete\\Programacion-Estructurada\\PE26A_FSA_\\DlgPrincipal.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\flete\\OneDrive\\Escritorio\\Ingenier\u00EDa\\pe\\PE26A_FSA_\\PE26A_FSA_\\DlgPrincipal.cs [Dise\u00F1o]",
               "RelativeToolTip": "PE26A_FSA_\\DlgPrincipal.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-04T21:24:57.477Z",
-              "IsPinned": true,
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DlgPrincipal.cs",
-              "DocumentMoniker": "C:\\Users\\flete\\Programacion-Estructurada\\PE26A_FSA_\\DlgPrincipal.cs",
-              "RelativeDocumentMoniker": "PE26A_FSA_\\DlgPrincipal.cs",
-              "ToolTip": "C:\\Users\\flete\\Programacion-Estructurada\\PE26A_FSA_\\DlgPrincipal.cs",
-              "RelativeToolTip": "PE26A_FSA_\\DlgPrincipal.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-13T21:39:53.842Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -73,67 +46,40 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DlgMesaPracticas1.cs",
-              "DocumentMoniker": "C:\\Users\\flete\\Programacion-Estructurada\\PE26A_FSA_\\DlgMesaPracticas1.cs",
-              "RelativeDocumentMoniker": "PE26A_FSA_\\DlgMesaPracticas1.cs",
-              "ToolTip": "C:\\Users\\flete\\Programacion-Estructurada\\PE26A_FSA_\\DlgMesaPracticas1.cs",
-              "RelativeToolTip": "PE26A_FSA_\\DlgMesaPracticas1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAIAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "DlgMesaPracticas4.cs",
+              "DocumentMoniker": "C:\\Users\\flete\\OneDrive\\Escritorio\\Ingenier\u00EDa\\pe\\PE26A_FSA_\\PE26A_FSA_\\DlgMesaPracticas4.cs",
+              "RelativeDocumentMoniker": "PE26A_FSA_\\DlgMesaPracticas4.cs",
+              "ToolTip": "C:\\Users\\flete\\OneDrive\\Escritorio\\Ingenier\u00EDa\\pe\\PE26A_FSA_\\PE26A_FSA_\\DlgMesaPracticas4.cs",
+              "RelativeToolTip": "PE26A_FSA_\\DlgMesaPracticas4.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAwwHUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-22T21:47:22.53Z",
+              "WhenOpened": "2026-05-06T22:03:48.653Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DlgMesaPracticas2.cs",
-              "DocumentMoniker": "C:\\Users\\flete\\Programacion-Estructurada\\PE26A_FSA_\\DlgMesaPracticas2.cs",
-              "RelativeDocumentMoniker": "PE26A_FSA_\\DlgMesaPracticas2.cs",
-              "ToolTip": "C:\\Users\\flete\\Programacion-Estructurada\\PE26A_FSA_\\DlgMesaPracticas2.cs",
-              "RelativeToolTip": "PE26A_FSA_\\DlgMesaPracticas2.cs",
-              "ViewState": "AgIAALsBAAAAAAAAAADwv7wBAAALAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "DlgMesaPracticas4.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\flete\\OneDrive\\Escritorio\\Ingenier\u00EDa\\pe\\PE26A_FSA_\\PE26A_FSA_\\DlgMesaPracticas4.cs",
+              "RelativeDocumentMoniker": "PE26A_FSA_\\DlgMesaPracticas4.cs",
+              "ToolTip": "C:\\Users\\flete\\OneDrive\\Escritorio\\Ingenier\u00EDa\\pe\\PE26A_FSA_\\PE26A_FSA_\\DlgMesaPracticas4.cs [Dise\u00F1o]",
+              "RelativeToolTip": "PE26A_FSA_\\DlgMesaPracticas4.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-13T22:21:10.725Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-06T22:03:34.255Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Helper.cs",
-              "DocumentMoniker": "C:\\Users\\flete\\Programacion-Estructurada\\PE26A_FSA_\\Helper.cs",
+              "DocumentMoniker": "C:\\Users\\flete\\OneDrive\\Escritorio\\Ingenier\u00EDa\\pe\\PE26A_FSA_\\PE26A_FSA_\\Helper.cs",
               "RelativeDocumentMoniker": "PE26A_FSA_\\Helper.cs",
-              "ToolTip": "C:\\Users\\flete\\Programacion-Estructurada\\PE26A_FSA_\\Helper.cs",
+              "ToolTip": "C:\\Users\\flete\\OneDrive\\Escritorio\\Ingenier\u00EDa\\pe\\PE26A_FSA_\\PE26A_FSA_\\Helper.cs",
               "RelativeToolTip": "PE26A_FSA_\\Helper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-22T01:16:39.441Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DlgMesaPracticas2.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\flete\\Programacion-Estructurada\\PE26A_FSA_\\DlgMesaPracticas2.cs",
-              "RelativeDocumentMoniker": "PE26A_FSA_\\DlgMesaPracticas2.cs",
-              "ToolTip": "C:\\Users\\flete\\Programacion-Estructurada\\PE26A_FSA_\\DlgMesaPracticas2.cs [Dise\u00F1o]",
-              "RelativeToolTip": "PE26A_FSA_\\DlgMesaPracticas2.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-13T22:19:39.639Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "DlgPrincipal.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\flete\\Programacion-Estructurada\\PE26A_FSA_\\DlgPrincipal.Designer.cs",
-              "RelativeDocumentMoniker": "PE26A_FSA_\\DlgPrincipal.Designer.cs",
-              "ToolTip": "C:\\Users\\flete\\Programacion-Estructurada\\PE26A_FSA_\\DlgPrincipal.Designer.cs",
-              "RelativeToolTip": "PE26A_FSA_\\DlgPrincipal.Designer.cs",
-              "ViewState": "AgIAAP8AAAAAAAAAAAAUwCABAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-12T18:59:48.632Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-22T01:16:39.441Z"
             }
           ]
         }

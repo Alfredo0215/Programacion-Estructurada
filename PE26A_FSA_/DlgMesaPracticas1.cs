@@ -21,8 +21,6 @@ namespace PE26A_FSA_
             RA = 0;
         }
 
-
-
         //---------------------------------------------------------------------
         //Toggle de paneles 
         //---------------------------------------------------------------------
@@ -49,7 +47,6 @@ namespace PE26A_FSA_
         }
 
         //Muestra el panel 2 y esconde los demás.
-
         private void BtnPractica2_Click(object sender, EventArgs e)
         {
             if (PnlPracticas2.Visible)
@@ -67,7 +64,6 @@ namespace PE26A_FSA_
         }
 
         //Muestra el panel 3 y esconde los demás.
-
         private void BtnPractica3_Click(object sender, EventArgs e)
         {
             if (PnlPracticas3.Visible)
