@@ -200,5 +200,29 @@
   <ItemGroup>
     <None Include="Resources\kindred-removebg-preview.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo_PE-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Definitivo 1}.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo_bueno_3-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\A.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fondo mesa 4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fondo Mesa 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fondo mesa 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fondo Mesa 3.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

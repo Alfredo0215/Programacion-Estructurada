@@ -23,6 +23,12 @@ namespace PE26A_FSA_
         public DlgMesaPracticas4()
         {
             InitializeComponent();
+            Helper.DrawHelper.RedondearBoton(BtnProyectoFinal, 20);
+            Helper.DrawHelper.RedondearBoton(BtnProyectoFinalIA, 20);
+            PbxLogo1.SizeMode = PictureBoxSizeMode.Zoom;
+            Helper.DrawHelper.RedondearBoton(PnlCardProyectos, 20);
+            Helper.DrawHelper.RedondearBoton(PnlCardSecundario, 20);
+
             InitializeWorld();
             DrawWorld();
         }
@@ -42,8 +48,11 @@ namespace PE26A_FSA_
                 PnlPracticas1.Visible = true;
                 PnlPracticas2.Visible = false;
                 
+                
             }
-            
+            LblProyecto2.Text = "   " + BtnProyectoFinal.Text;
+
+
         }
 
         private void BtnPractica2_Click(object sender, EventArgs e)
@@ -58,11 +67,12 @@ namespace PE26A_FSA_
                 PnlPracticas1.Visible = false;
                
             }
+            LblProyecto2.Text = BtnProyectoFinalIA.Text;
 
         }
 
-        
-        
+
+
 
         // Función geeneradora de matriz para ejercicios de llenado.
         private void BtnPractica1Pnl1_Click(object sender, EventArgs e)

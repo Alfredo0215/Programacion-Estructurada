@@ -38,7 +38,7 @@
             this.TbxCaptura3 = new System.Windows.Forms.TextBox();
             this.TbxCaptura2 = new System.Windows.Forms.TextBox();
             this.TbxCaptura1 = new System.Windows.Forms.TextBox();
-            this.PbxLogo2 = new System.Windows.Forms.PictureBox();
+            this.PbxLogo1 = new System.Windows.Forms.PictureBox();
             this.PnlInferior = new System.Windows.Forms.Panel();
             this.LblAlumno = new System.Windows.Forms.Label();
             this.PnlIzquierdo = new System.Windows.Forms.Panel();
@@ -46,7 +46,6 @@
             this.BtnPractica3 = new System.Windows.Forms.Button();
             this.BtnPractica2 = new System.Windows.Forms.Button();
             this.BtnPractica1 = new System.Windows.Forms.Button();
-            this.PbxLogo1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.PnlCentral = new System.Windows.Forms.Panel();
             this.PnlPracticas2 = new System.Windows.Forms.Panel();
@@ -78,10 +77,9 @@
             this.BtnPractica3Pnl3 = new System.Windows.Forms.Button();
             this.BtnPractica1Pnl3 = new System.Windows.Forms.Button();
             this.PnlSuperior.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.PbxLogo2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PbxLogo1)).BeginInit();
             this.PnlInferior.SuspendLayout();
             this.PnlIzquierdo.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.PbxLogo1)).BeginInit();
             this.PnlCentral.SuspendLayout();
             this.PnlPracticas2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PbxP2)).BeginInit();
@@ -95,7 +93,7 @@
             // 
             // PnlSuperior
             // 
-            this.PnlSuperior.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.PnlSuperior.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(28)))));
             this.PnlSuperior.Controls.Add(this.Cbx1);
             this.PnlSuperior.Controls.Add(this.LblCaptura4);
             this.PnlSuperior.Controls.Add(this.TbxCaptura4);
@@ -105,111 +103,145 @@
             this.PnlSuperior.Controls.Add(this.TbxCaptura3);
             this.PnlSuperior.Controls.Add(this.TbxCaptura2);
             this.PnlSuperior.Controls.Add(this.TbxCaptura1);
-            this.PnlSuperior.Controls.Add(this.PbxLogo2);
+            this.PnlSuperior.Controls.Add(this.PbxLogo1);
             this.PnlSuperior.Dock = System.Windows.Forms.DockStyle.Top;
             this.PnlSuperior.Location = new System.Drawing.Point(0, 0);
             this.PnlSuperior.Name = "PnlSuperior";
-            this.PnlSuperior.Size = new System.Drawing.Size(800, 70);
+            this.PnlSuperior.Size = new System.Drawing.Size(810, 70);
             this.PnlSuperior.TabIndex = 0;
             // 
             // Cbx1
             // 
             this.Cbx1.AutoSize = true;
+            this.Cbx1.BackColor = System.Drawing.Color.Transparent;
+            this.Cbx1.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Cbx1.ForeColor = System.Drawing.Color.Gainsboro;
             this.Cbx1.Location = new System.Drawing.Point(702, 28);
             this.Cbx1.Name = "Cbx1";
-            this.Cbx1.Size = new System.Drawing.Size(94, 17);
+            this.Cbx1.Size = new System.Drawing.Size(102, 17);
             this.Cbx1.TabIndex = 9;
             this.Cbx1.Text = "Efecto Cilindro";
-            this.Cbx1.UseVisualStyleBackColor = true;
+            this.Cbx1.UseVisualStyleBackColor = false;
             // 
             // LblCaptura4
             // 
             this.LblCaptura4.AutoSize = true;
+            this.LblCaptura4.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblCaptura4.ForeColor = System.Drawing.Color.Gainsboro;
             this.LblCaptura4.Location = new System.Drawing.Point(567, 10);
             this.LblCaptura4.Name = "LblCaptura4";
-            this.LblCaptura4.Size = new System.Drawing.Size(53, 13);
+            this.LblCaptura4.Size = new System.Drawing.Size(57, 13);
             this.LblCaptura4.TabIndex = 8;
             this.LblCaptura4.Text = "Captura 4";
             // 
             // TbxCaptura4
             // 
+            this.TbxCaptura4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(45)))));
+            this.TbxCaptura4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.TbxCaptura4.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TbxCaptura4.ForeColor = System.Drawing.Color.Gainsboro;
             this.TbxCaptura4.Location = new System.Drawing.Point(570, 26);
             this.TbxCaptura4.Name = "TbxCaptura4";
-            this.TbxCaptura4.Size = new System.Drawing.Size(100, 20);
+            this.TbxCaptura4.Size = new System.Drawing.Size(100, 25);
             this.TbxCaptura4.TabIndex = 7;
+            this.TbxCaptura4.Text = "35";
             // 
             // LblCaptura3
             // 
             this.LblCaptura3.AutoSize = true;
+            this.LblCaptura3.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblCaptura3.ForeColor = System.Drawing.Color.Gainsboro;
             this.LblCaptura3.Location = new System.Drawing.Point(443, 10);
             this.LblCaptura3.Name = "LblCaptura3";
-            this.LblCaptura3.Size = new System.Drawing.Size(53, 13);
+            this.LblCaptura3.Size = new System.Drawing.Size(57, 13);
             this.LblCaptura3.TabIndex = 6;
             this.LblCaptura3.Text = "Captura 3";
             // 
             // LblCaptura2
             // 
             this.LblCaptura2.AutoSize = true;
+            this.LblCaptura2.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblCaptura2.ForeColor = System.Drawing.Color.Gainsboro;
             this.LblCaptura2.Location = new System.Drawing.Point(323, 10);
             this.LblCaptura2.Name = "LblCaptura2";
-            this.LblCaptura2.Size = new System.Drawing.Size(53, 13);
+            this.LblCaptura2.Size = new System.Drawing.Size(57, 13);
             this.LblCaptura2.TabIndex = 5;
             this.LblCaptura2.Text = "Captura 2";
             // 
             // LblCaptura1
             // 
             this.LblCaptura1.AutoSize = true;
+            this.LblCaptura1.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblCaptura1.ForeColor = System.Drawing.Color.Gainsboro;
             this.LblCaptura1.Location = new System.Drawing.Point(201, 10);
             this.LblCaptura1.Name = "LblCaptura1";
-            this.LblCaptura1.Size = new System.Drawing.Size(53, 13);
+            this.LblCaptura1.Size = new System.Drawing.Size(57, 13);
             this.LblCaptura1.TabIndex = 4;
             this.LblCaptura1.Text = "Captura 1";
             // 
             // TbxCaptura3
             // 
+            this.TbxCaptura3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(45)))));
+            this.TbxCaptura3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.TbxCaptura3.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TbxCaptura3.ForeColor = System.Drawing.Color.Gainsboro;
             this.TbxCaptura3.Location = new System.Drawing.Point(446, 26);
             this.TbxCaptura3.Name = "TbxCaptura3";
-            this.TbxCaptura3.Size = new System.Drawing.Size(100, 20);
+            this.TbxCaptura3.Size = new System.Drawing.Size(100, 25);
             this.TbxCaptura3.TabIndex = 3;
+            this.TbxCaptura3.Text = "35";
             // 
             // TbxCaptura2
             // 
+            this.TbxCaptura2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(45)))));
+            this.TbxCaptura2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.TbxCaptura2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TbxCaptura2.ForeColor = System.Drawing.Color.Gainsboro;
             this.TbxCaptura2.Location = new System.Drawing.Point(325, 26);
             this.TbxCaptura2.Name = "TbxCaptura2";
-            this.TbxCaptura2.Size = new System.Drawing.Size(100, 20);
+            this.TbxCaptura2.Size = new System.Drawing.Size(100, 25);
             this.TbxCaptura2.TabIndex = 2;
+            this.TbxCaptura2.Text = "35";
             // 
             // TbxCaptura1
             // 
+            this.TbxCaptura1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(45)))));
+            this.TbxCaptura1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.TbxCaptura1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TbxCaptura1.ForeColor = System.Drawing.Color.Gainsboro;
             this.TbxCaptura1.Location = new System.Drawing.Point(204, 26);
             this.TbxCaptura1.Name = "TbxCaptura1";
-            this.TbxCaptura1.Size = new System.Drawing.Size(100, 20);
+            this.TbxCaptura1.Size = new System.Drawing.Size(100, 25);
             this.TbxCaptura1.TabIndex = 1;
+            this.TbxCaptura1.Text = "35";
             // 
-            // PbxLogo2
+            // PbxLogo1
             // 
-            this.PbxLogo2.Image = global::PE26A_FSA_.Properties.Resources.Logo_bueno_3;
-            this.PbxLogo2.Location = new System.Drawing.Point(0, 3);
-            this.PbxLogo2.Name = "PbxLogo2";
-            this.PbxLogo2.Size = new System.Drawing.Size(197, 67);
-            this.PbxLogo2.TabIndex = 0;
-            this.PbxLogo2.TabStop = false;
+            this.PbxLogo1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(28)))));
+            this.PbxLogo1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.PbxLogo1.Image = global::PE26A_FSA_.Properties.Resources.Definitivo_1_;
+            this.PbxLogo1.Location = new System.Drawing.Point(0, -13);
+            this.PbxLogo1.Name = "PbxLogo1";
+            this.PbxLogo1.Size = new System.Drawing.Size(200, 120);
+            this.PbxLogo1.TabIndex = 1;
+            this.PbxLogo1.TabStop = false;
             // 
             // PnlInferior
             // 
-            this.PnlInferior.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.PnlInferior.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(18)))), ((int)(((byte)(24)))));
             this.PnlInferior.Controls.Add(this.LblAlumno);
             this.PnlInferior.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.PnlInferior.Location = new System.Drawing.Point(0, 380);
+            this.PnlInferior.Location = new System.Drawing.Point(0, 400);
             this.PnlInferior.Name = "PnlInferior";
-            this.PnlInferior.Size = new System.Drawing.Size(800, 70);
+            this.PnlInferior.Size = new System.Drawing.Size(810, 70);
             this.PnlInferior.TabIndex = 1;
             // 
             // LblAlumno
             // 
-            this.LblAlumno.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.LblAlumno.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.LblAlumno.AutoSize = true;
-            this.LblAlumno.Location = new System.Drawing.Point(-23, 3);
+            this.LblAlumno.ForeColor = System.Drawing.Color.Gray;
+            this.LblAlumno.Location = new System.Drawing.Point(3, 3);
             this.LblAlumno.Name = "LblAlumno";
             this.LblAlumno.Size = new System.Drawing.Size(277, 13);
             this.LblAlumno.TabIndex = 5;
@@ -217,70 +249,81 @@
             // 
             // PnlIzquierdo
             // 
-            this.PnlIzquierdo.BackColor = System.Drawing.SystemColors.Control;
+            this.PnlIzquierdo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(28)))));
             this.PnlIzquierdo.Controls.Add(this.BtnPractica4);
             this.PnlIzquierdo.Controls.Add(this.BtnPractica3);
             this.PnlIzquierdo.Controls.Add(this.BtnPractica2);
             this.PnlIzquierdo.Controls.Add(this.BtnPractica1);
-            this.PnlIzquierdo.Controls.Add(this.PbxLogo1);
             this.PnlIzquierdo.Controls.Add(this.label1);
             this.PnlIzquierdo.Dock = System.Windows.Forms.DockStyle.Left;
             this.PnlIzquierdo.Location = new System.Drawing.Point(0, 70);
             this.PnlIzquierdo.Name = "PnlIzquierdo";
-            this.PnlIzquierdo.Size = new System.Drawing.Size(200, 310);
+            this.PnlIzquierdo.Size = new System.Drawing.Size(200, 330);
             this.PnlIzquierdo.TabIndex = 2;
             // 
             // BtnPractica4
             // 
+            this.BtnPractica4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(45)))));
+            this.BtnPractica4.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BtnPractica4.FlatAppearance.BorderSize = 0;
+            this.BtnPractica4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnPractica4.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnPractica4.ForeColor = System.Drawing.Color.Gainsboro;
             this.BtnPractica4.Location = new System.Drawing.Point(51, 164);
             this.BtnPractica4.Name = "BtnPractica4";
             this.BtnPractica4.Size = new System.Drawing.Size(75, 23);
             this.BtnPractica4.TabIndex = 4;
             this.BtnPractica4.Text = "Práctica 4";
-            this.BtnPractica4.UseVisualStyleBackColor = true;
+            this.BtnPractica4.UseVisualStyleBackColor = false;
             this.BtnPractica4.Click += new System.EventHandler(this.BtnPractica4_Click);
             // 
             // BtnPractica3
             // 
+            this.BtnPractica3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(45)))));
+            this.BtnPractica3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BtnPractica3.FlatAppearance.BorderSize = 0;
+            this.BtnPractica3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnPractica3.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnPractica3.ForeColor = System.Drawing.Color.Gainsboro;
             this.BtnPractica3.Location = new System.Drawing.Point(51, 135);
             this.BtnPractica3.Name = "BtnPractica3";
             this.BtnPractica3.Size = new System.Drawing.Size(75, 23);
             this.BtnPractica3.TabIndex = 3;
             this.BtnPractica3.Text = "Práctica 3";
-            this.BtnPractica3.UseVisualStyleBackColor = true;
+            this.BtnPractica3.UseVisualStyleBackColor = false;
             this.BtnPractica3.Click += new System.EventHandler(this.BtnPractica3_Click);
             // 
             // BtnPractica2
             // 
+            this.BtnPractica2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(45)))));
+            this.BtnPractica2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BtnPractica2.FlatAppearance.BorderSize = 0;
+            this.BtnPractica2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnPractica2.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnPractica2.ForeColor = System.Drawing.Color.Gainsboro;
             this.BtnPractica2.Location = new System.Drawing.Point(51, 106);
             this.BtnPractica2.Name = "BtnPractica2";
             this.BtnPractica2.Size = new System.Drawing.Size(75, 23);
             this.BtnPractica2.TabIndex = 2;
             this.BtnPractica2.Text = "Práctica 2";
-            this.BtnPractica2.UseVisualStyleBackColor = true;
+            this.BtnPractica2.UseVisualStyleBackColor = false;
             this.BtnPractica2.Click += new System.EventHandler(this.BtnPractica2_Click);
             // 
             // BtnPractica1
             // 
+            this.BtnPractica1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(45)))));
+            this.BtnPractica1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BtnPractica1.FlatAppearance.BorderSize = 0;
+            this.BtnPractica1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnPractica1.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnPractica1.ForeColor = System.Drawing.Color.Gainsboro;
             this.BtnPractica1.Location = new System.Drawing.Point(51, 77);
             this.BtnPractica1.Name = "BtnPractica1";
             this.BtnPractica1.Size = new System.Drawing.Size(75, 23);
             this.BtnPractica1.TabIndex = 0;
             this.BtnPractica1.Text = "Práctica 1";
-            this.BtnPractica1.UseVisualStyleBackColor = true;
+            this.BtnPractica1.UseVisualStyleBackColor = false;
             this.BtnPractica1.Click += new System.EventHandler(this.BtnPractica1_Click);
-            // 
-            // PbxLogo1
-            // 
-            this.PbxLogo1.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.PbxLogo1.BackgroundImage = global::PE26A_FSA_.Properties.Resources.Logo_bueno1;
-            this.PbxLogo1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.PbxLogo1.Image = global::PE26A_FSA_.Properties.Resources.Logo_bueno_2;
-            this.PbxLogo1.Location = new System.Drawing.Point(-12, 6);
-            this.PbxLogo1.Name = "PbxLogo1";
-            this.PbxLogo1.Size = new System.Drawing.Size(206, 38);
-            this.PbxLogo1.TabIndex = 1;
-            this.PbxLogo1.TabStop = false;
             // 
             // label1
             // 
@@ -302,14 +345,16 @@
             this.PnlCentral.Controls.Add(this.PnlPracticas1);
             this.PnlCentral.Controls.Add(this.PnlPracticas4);
             this.PnlCentral.Controls.Add(this.PnlPracticas3);
-            this.PnlCentral.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.PnlCentral.Location = new System.Drawing.Point(200, 70);
+            this.PnlCentral.Location = new System.Drawing.Point(215, 85);
             this.PnlCentral.Name = "PnlCentral";
             this.PnlCentral.Size = new System.Drawing.Size(600, 310);
             this.PnlCentral.TabIndex = 3;
             // 
             // PnlPracticas2
             // 
+            this.PnlPracticas2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.PnlPracticas2.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.PnlPracticas2.Controls.Add(this.BtnPpractica5Pnl2);
             this.PnlPracticas2.Controls.Add(this.BtnPractica4Pnl2);
@@ -353,15 +398,17 @@
             // LblImpares
             // 
             this.LblImpares.AutoSize = true;
+            this.LblImpares.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblImpares.Location = new System.Drawing.Point(476, 3);
             this.LblImpares.Name = "LblImpares";
-            this.LblImpares.Size = new System.Drawing.Size(44, 13);
+            this.LblImpares.Size = new System.Drawing.Size(47, 13);
             this.LblImpares.TabIndex = 11;
             this.LblImpares.Text = "Impares";
             // 
             // LblPares
             // 
             this.LblPares.AutoSize = true;
+            this.LblPares.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblPares.Location = new System.Drawing.Point(357, 3);
             this.LblPares.Name = "LblPares";
             this.LblPares.Size = new System.Drawing.Size(34, 13);
@@ -370,35 +417,52 @@
             // 
             // TbxSImpares
             // 
+            this.TbxSImpares.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(45)))));
+            this.TbxSImpares.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.TbxSImpares.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TbxSImpares.ForeColor = System.Drawing.Color.Gainsboro;
             this.TbxSImpares.Location = new System.Drawing.Point(479, 44);
             this.TbxSImpares.Name = "TbxSImpares";
-            this.TbxSImpares.Size = new System.Drawing.Size(100, 20);
+            this.TbxSImpares.Size = new System.Drawing.Size(100, 25);
             this.TbxSImpares.TabIndex = 8;
             // 
             // TbxSPares
             // 
+            this.TbxSPares.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(45)))));
+            this.TbxSPares.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.TbxSPares.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TbxSPares.ForeColor = System.Drawing.Color.Gainsboro;
             this.TbxSPares.Location = new System.Drawing.Point(360, 45);
             this.TbxSPares.Name = "TbxSPares";
-            this.TbxSPares.Size = new System.Drawing.Size(100, 20);
+            this.TbxSPares.Size = new System.Drawing.Size(100, 25);
             this.TbxSPares.TabIndex = 7;
             // 
             // TbxNImpares
             // 
+            this.TbxNImpares.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(45)))));
+            this.TbxNImpares.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.TbxNImpares.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TbxNImpares.ForeColor = System.Drawing.Color.Gainsboro;
             this.TbxNImpares.Location = new System.Drawing.Point(479, 19);
             this.TbxNImpares.Name = "TbxNImpares";
-            this.TbxNImpares.Size = new System.Drawing.Size(100, 20);
+            this.TbxNImpares.Size = new System.Drawing.Size(100, 25);
             this.TbxNImpares.TabIndex = 6;
             // 
             // TbxNPares
             // 
+            this.TbxNPares.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(45)))));
+            this.TbxNPares.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.TbxNPares.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TbxNPares.ForeColor = System.Drawing.Color.Gainsboro;
             this.TbxNPares.Location = new System.Drawing.Point(360, 19);
             this.TbxNPares.Name = "TbxNPares";
-            this.TbxNPares.Size = new System.Drawing.Size(100, 20);
+            this.TbxNPares.Size = new System.Drawing.Size(100, 25);
             this.TbxNPares.TabIndex = 5;
             // 
             // PbxP2
             // 
-            this.PbxP2.Location = new System.Drawing.Point(457, 74);
+            this.PbxP2.BackColor = System.Drawing.Color.Transparent;
+            this.PbxP2.Location = new System.Drawing.Point(479, 68);
             this.PbxP2.Name = "PbxP2";
             this.PbxP2.Size = new System.Drawing.Size(126, 221);
             this.PbxP2.TabIndex = 4;
@@ -406,7 +470,9 @@
             // 
             // DGVMatriz2
             // 
-            this.DGVMatriz2.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.DGVMatriz2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.DGVMatriz2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.DGVMatriz2.Location = new System.Drawing.Point(3, 71);
             this.DGVMatriz2.Name = "DGVMatriz2";
@@ -453,9 +519,9 @@
             this.PnlPracticas1.Controls.Add(this.BtnPractica2Pnl1);
             this.PnlPracticas1.Controls.Add(this.BtnPractica3Pnl1);
             this.PnlPracticas1.Controls.Add(this.BtnPractica1Pnl1);
-            this.PnlPracticas1.Location = new System.Drawing.Point(6, 6);
+            this.PnlPracticas1.Location = new System.Drawing.Point(0, 0);
             this.PnlPracticas1.Name = "PnlPracticas1";
-            this.PnlPracticas1.Size = new System.Drawing.Size(591, 298);
+            this.PnlPracticas1.Size = new System.Drawing.Size(600, 310);
             this.PnlPracticas1.TabIndex = 0;
             this.PnlPracticas1.Visible = false;
             // 
@@ -467,7 +533,7 @@
             this.DGVMatriz1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.DGVMatriz1.Location = new System.Drawing.Point(17, 44);
             this.DGVMatriz1.Name = "DGVMatriz1";
-            this.DGVMatriz1.Size = new System.Drawing.Size(565, 239);
+            this.DGVMatriz1.Size = new System.Drawing.Size(574, 251);
             this.DGVMatriz1.TabIndex = 4;
             // 
             // BtnPractica2Pnl1
@@ -502,6 +568,9 @@
             // 
             // PnlPracticas4
             // 
+            this.PnlPracticas4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.PnlPracticas4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.PnlPracticas4.Controls.Add(this.BtnPractica2Pnl4);
             this.PnlPracticas4.Controls.Add(this.BtnPractica3Pnl4);
@@ -541,6 +610,9 @@
             // 
             // PnlPracticas3
             // 
+            this.PnlPracticas3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.PnlPracticas3.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.PnlPracticas3.Controls.Add(this.DgvMatriz3);
             this.PnlPracticas3.Controls.Add(this.BtnPractica2Pnl3);
@@ -592,22 +664,23 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(20)))));
+            this.ClientSize = new System.Drawing.Size(810, 470);
             this.Controls.Add(this.PnlCentral);
             this.Controls.Add(this.PnlIzquierdo);
             this.Controls.Add(this.PnlInferior);
             this.Controls.Add(this.PnlSuperior);
+            this.MinimumSize = new System.Drawing.Size(816, 489);
             this.Name = "DlgMesaPracticas1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Mesa de Prácticas 1";
             this.PnlSuperior.ResumeLayout(false);
             this.PnlSuperior.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.PbxLogo2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PbxLogo1)).EndInit();
             this.PnlInferior.ResumeLayout(false);
             this.PnlInferior.PerformLayout();
             this.PnlIzquierdo.ResumeLayout(false);
             this.PnlIzquierdo.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.PbxLogo1)).EndInit();
             this.PnlCentral.ResumeLayout(false);
             this.PnlPracticas2.ResumeLayout(false);
             this.PnlPracticas2.PerformLayout();
@@ -630,7 +703,6 @@
         private System.Windows.Forms.Panel PnlCentral;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox PbxLogo1;
-        private System.Windows.Forms.PictureBox PbxLogo2;
         private System.Windows.Forms.TextBox TbxCaptura3;
         private System.Windows.Forms.TextBox TbxCaptura2;
         private System.Windows.Forms.TextBox TbxCaptura1;

@@ -17,7 +17,12 @@ namespace PE26A_FSA_
 
         public DlgMesaPracticas1()
         {
+           
             InitializeComponent();
+            PbxLogo1.SizeMode = PictureBoxSizeMode.Zoom;
+            PnlCentral.Dock = DockStyle.Fill;
+            
+
             RA = 0;
         }
 
