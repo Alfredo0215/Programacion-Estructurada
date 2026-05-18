@@ -35,38 +35,38 @@
             this.MesaPracticas3 = new FontAwesome.Sharp.IconButton();
             this.MesaPracticas2 = new FontAwesome.Sharp.IconButton();
             this.MesaPracticas1 = new FontAwesome.Sharp.IconButton();
+            this.PnlUsuario = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.IPbxUsuario = new FontAwesome.Sharp.IconPictureBox();
+            this.LblUsuario = new System.Windows.Forms.Label();
             this.BtnMesasPracticas = new FontAwesome.Sharp.IconButton();
             this.BtnCalculadora = new FontAwesome.Sharp.IconButton();
             this.BtnHolaMundo = new FontAwesome.Sharp.IconButton();
             this.PanelLogo = new System.Windows.Forms.Panel();
             this.PbxHome = new System.Windows.Forms.PictureBox();
             this.PnlForms = new System.Windows.Forms.Panel();
+            this.PbxFondo = new System.Windows.Forms.PictureBox();
             this.IPbxDate = new FontAwesome.Sharp.IconPictureBox();
             this.LblFecha = new System.Windows.Forms.Label();
             this.LblHora = new System.Windows.Forms.Label();
-            this.PbxFondo = new System.Windows.Forms.PictureBox();
             this.LblBotonActual = new System.Windows.Forms.Label();
             this.PnlTitulo = new System.Windows.Forms.Panel();
-            this.PnlUsuario = new System.Windows.Forms.Panel();
-            this.IPbxUsuario = new FontAwesome.Sharp.IconPictureBox();
-            this.LblUsuario = new System.Windows.Forms.Label();
             this.IPbxMinimize = new FontAwesome.Sharp.IconPictureBox();
             this.IPbxMaximize = new FontAwesome.Sharp.IconPictureBox();
             this.IPbxClose = new FontAwesome.Sharp.IconPictureBox();
             this.LblBotonAcrtual2 = new System.Windows.Forms.Label();
             this.IPbxBotonActual = new FontAwesome.Sharp.IconPictureBox();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.label1 = new System.Windows.Forms.Label();
             this.sidePnl.SuspendLayout();
             this.SubMenuMesas.SuspendLayout();
+            this.PnlUsuario.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.IPbxUsuario)).BeginInit();
             this.PanelLogo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PbxHome)).BeginInit();
             this.PnlForms.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.IPbxDate)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PbxFondo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.IPbxDate)).BeginInit();
             this.PnlTitulo.SuspendLayout();
-            this.PnlUsuario.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.IPbxUsuario)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.IPbxMinimize)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.IPbxMaximize)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.IPbxClose)).BeginInit();
@@ -87,7 +87,7 @@
             this.sidePnl.Location = new System.Drawing.Point(0, 0);
             this.sidePnl.MinimumSize = new System.Drawing.Size(57, 589);
             this.sidePnl.Name = "sidePnl";
-            this.sidePnl.Size = new System.Drawing.Size(241, 704);
+            this.sidePnl.Size = new System.Drawing.Size(241, 884);
             this.sidePnl.TabIndex = 13;
             // 
             // SubMenuMesas
@@ -203,6 +203,53 @@
             this.MesaPracticas1.UseVisualStyleBackColor = false;
             this.MesaPracticas1.Click += new System.EventHandler(this.MesaPracticas1_Click);
             // 
+            // PnlUsuario
+            // 
+            this.PnlUsuario.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.PnlUsuario.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(45)))));
+            this.PnlUsuario.Controls.Add(this.label1);
+            this.PnlUsuario.Controls.Add(this.IPbxUsuario);
+            this.PnlUsuario.Controls.Add(this.LblUsuario);
+            this.PnlUsuario.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.PnlUsuario.Location = new System.Drawing.Point(10, 813);
+            this.PnlUsuario.Name = "PnlUsuario";
+            this.PnlUsuario.Size = new System.Drawing.Size(211, 57);
+            this.PnlUsuario.TabIndex = 6;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.DarkGray;
+            this.label1.Location = new System.Drawing.Point(41, 31);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(62, 15);
+            this.label1.TabIndex = 9;
+            this.label1.Text = "Estudiante";
+            // 
+            // IPbxUsuario
+            // 
+            this.IPbxUsuario.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(45)))));
+            this.IPbxUsuario.IconChar = FontAwesome.Sharp.IconChar.UserAlt;
+            this.IPbxUsuario.IconColor = System.Drawing.Color.White;
+            this.IPbxUsuario.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.IPbxUsuario.Location = new System.Drawing.Point(10, 14);
+            this.IPbxUsuario.Name = "IPbxUsuario";
+            this.IPbxUsuario.Size = new System.Drawing.Size(32, 32);
+            this.IPbxUsuario.TabIndex = 7;
+            this.IPbxUsuario.TabStop = false;
+            // 
+            // LblUsuario
+            // 
+            this.LblUsuario.AutoSize = true;
+            this.LblUsuario.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblUsuario.ForeColor = System.Drawing.Color.Gainsboro;
+            this.LblUsuario.Location = new System.Drawing.Point(41, 14);
+            this.LblUsuario.Name = "LblUsuario";
+            this.LblUsuario.Size = new System.Drawing.Size(144, 17);
+            this.LblUsuario.TabIndex = 7;
+            this.LblUsuario.Text = "Alfredo Fletes Sánchez";
+            // 
             // BtnMesasPracticas
             // 
             this.BtnMesasPracticas.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(7)))), ((int)(((byte)(17)))));
@@ -305,8 +352,18 @@
             this.PnlForms.Dock = System.Windows.Forms.DockStyle.Fill;
             this.PnlForms.Location = new System.Drawing.Point(241, 100);
             this.PnlForms.Name = "PnlForms";
-            this.PnlForms.Size = new System.Drawing.Size(846, 604);
+            this.PnlForms.Size = new System.Drawing.Size(1316, 784);
             this.PnlForms.TabIndex = 15;
+            // 
+            // PbxFondo
+            // 
+            this.PbxFondo.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.PbxFondo.Image = global::PE26A_FSA_.Properties.Resources.Logo_PE_removebg_preview;
+            this.PbxFondo.Location = new System.Drawing.Point(501, 215);
+            this.PbxFondo.Name = "PbxFondo";
+            this.PbxFondo.Size = new System.Drawing.Size(339, 302);
+            this.PbxFondo.TabIndex = 0;
+            this.PbxFondo.TabStop = false;
             // 
             // IPbxDate
             // 
@@ -315,7 +372,7 @@
             this.IPbxDate.IconChar = FontAwesome.Sharp.IconChar.Calendar;
             this.IPbxDate.IconColor = System.Drawing.Color.White;
             this.IPbxDate.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.IPbxDate.Location = new System.Drawing.Point(528, 43);
+            this.IPbxDate.Location = new System.Drawing.Point(998, 43);
             this.IPbxDate.Name = "IPbxDate";
             this.IPbxDate.Size = new System.Drawing.Size(32, 32);
             this.IPbxDate.TabIndex = 8;
@@ -327,7 +384,7 @@
             this.LblFecha.AutoSize = true;
             this.LblFecha.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblFecha.ForeColor = System.Drawing.Color.Gainsboro;
-            this.LblFecha.Location = new System.Drawing.Point(566, 35);
+            this.LblFecha.Location = new System.Drawing.Point(1036, 35);
             this.LblFecha.Name = "LblFecha";
             this.LblFecha.Size = new System.Drawing.Size(64, 25);
             this.LblFecha.TabIndex = 6;
@@ -339,21 +396,11 @@
             this.LblHora.AutoSize = true;
             this.LblHora.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblHora.ForeColor = System.Drawing.Color.Gainsboro;
-            this.LblHora.Location = new System.Drawing.Point(568, 60);
+            this.LblHora.Location = new System.Drawing.Point(1038, 60);
             this.LblHora.Name = "LblHora";
             this.LblHora.Size = new System.Drawing.Size(37, 15);
             this.LblHora.TabIndex = 7;
             this.LblHora.Text = "Inicio";
-            // 
-            // PbxFondo
-            // 
-            this.PbxFondo.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.PbxFondo.Image = global::PE26A_FSA_.Properties.Resources.Logo_PE_removebg_preview;
-            this.PbxFondo.Location = new System.Drawing.Point(266, 125);
-            this.PbxFondo.Name = "PbxFondo";
-            this.PbxFondo.Size = new System.Drawing.Size(339, 302);
-            this.PbxFondo.TabIndex = 0;
-            this.PbxFondo.TabStop = false;
             // 
             // LblBotonActual
             // 
@@ -382,45 +429,9 @@
             this.PnlTitulo.Dock = System.Windows.Forms.DockStyle.Top;
             this.PnlTitulo.Location = new System.Drawing.Point(241, 0);
             this.PnlTitulo.Name = "PnlTitulo";
-            this.PnlTitulo.Size = new System.Drawing.Size(846, 100);
+            this.PnlTitulo.Size = new System.Drawing.Size(1316, 100);
             this.PnlTitulo.TabIndex = 14;
             this.PnlTitulo.MouseDown += new System.Windows.Forms.MouseEventHandler(this.PnlTitulo_MouseDown);
-            // 
-            // PnlUsuario
-            // 
-            this.PnlUsuario.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.PnlUsuario.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(45)))));
-            this.PnlUsuario.Controls.Add(this.label1);
-            this.PnlUsuario.Controls.Add(this.IPbxUsuario);
-            this.PnlUsuario.Controls.Add(this.LblUsuario);
-            this.PnlUsuario.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.PnlUsuario.Location = new System.Drawing.Point(10, 633);
-            this.PnlUsuario.Name = "PnlUsuario";
-            this.PnlUsuario.Size = new System.Drawing.Size(211, 57);
-            this.PnlUsuario.TabIndex = 6;
-            // 
-            // IPbxUsuario
-            // 
-            this.IPbxUsuario.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(45)))));
-            this.IPbxUsuario.IconChar = FontAwesome.Sharp.IconChar.UserAlt;
-            this.IPbxUsuario.IconColor = System.Drawing.Color.White;
-            this.IPbxUsuario.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.IPbxUsuario.Location = new System.Drawing.Point(10, 14);
-            this.IPbxUsuario.Name = "IPbxUsuario";
-            this.IPbxUsuario.Size = new System.Drawing.Size(32, 32);
-            this.IPbxUsuario.TabIndex = 7;
-            this.IPbxUsuario.TabStop = false;
-            // 
-            // LblUsuario
-            // 
-            this.LblUsuario.AutoSize = true;
-            this.LblUsuario.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblUsuario.ForeColor = System.Drawing.Color.Gainsboro;
-            this.LblUsuario.Location = new System.Drawing.Point(41, 14);
-            this.LblUsuario.Name = "LblUsuario";
-            this.LblUsuario.Size = new System.Drawing.Size(144, 17);
-            this.LblUsuario.TabIndex = 7;
-            this.LblUsuario.Text = "Alfredo Fletes Sánchez";
             // 
             // IPbxMinimize
             // 
@@ -431,7 +442,7 @@
             this.IPbxMinimize.IconColor = System.Drawing.Color.DarkGray;
             this.IPbxMinimize.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.IPbxMinimize.IconSize = 12;
-            this.IPbxMinimize.Location = new System.Drawing.Point(787, 6);
+            this.IPbxMinimize.Location = new System.Drawing.Point(1257, 6);
             this.IPbxMinimize.Name = "IPbxMinimize";
             this.IPbxMinimize.Size = new System.Drawing.Size(12, 15);
             this.IPbxMinimize.TabIndex = 5;
@@ -447,7 +458,7 @@
             this.IPbxMaximize.IconColor = System.Drawing.Color.DarkGray;
             this.IPbxMaximize.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.IPbxMaximize.IconSize = 12;
-            this.IPbxMaximize.Location = new System.Drawing.Point(805, 6);
+            this.IPbxMaximize.Location = new System.Drawing.Point(1275, 6);
             this.IPbxMaximize.Name = "IPbxMaximize";
             this.IPbxMaximize.Size = new System.Drawing.Size(12, 15);
             this.IPbxMaximize.TabIndex = 4;
@@ -463,7 +474,7 @@
             this.IPbxClose.IconColor = System.Drawing.Color.DarkGray;
             this.IPbxClose.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.IPbxClose.IconSize = 12;
-            this.IPbxClose.Location = new System.Drawing.Point(823, 6);
+            this.IPbxClose.Location = new System.Drawing.Point(1293, 6);
             this.IPbxClose.Name = "IPbxClose";
             this.IPbxClose.Size = new System.Drawing.Size(12, 15);
             this.IPbxClose.TabIndex = 3;
@@ -499,42 +510,31 @@
             this.timer1.Interval = 1000;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.DarkGray;
-            this.label1.Location = new System.Drawing.Point(41, 31);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(62, 15);
-            this.label1.TabIndex = 9;
-            this.label1.Text = "Estudiante";
-            // 
             // DlgPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.ClientSize = new System.Drawing.Size(1087, 704);
+            this.ClientSize = new System.Drawing.Size(1557, 884);
             this.Controls.Add(this.PnlForms);
             this.Controls.Add(this.PnlTitulo);
             this.Controls.Add(this.sidePnl);
-            this.MinimumSize = new System.Drawing.Size(1103, 683);
+            this.MinimumSize = new System.Drawing.Size(1553, 923);
             this.Name = "DlgPrincipal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Programación Estructurada 26A FSA";
             this.sidePnl.ResumeLayout(false);
             this.SubMenuMesas.ResumeLayout(false);
-            this.PanelLogo.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.PbxHome)).EndInit();
-            this.PnlForms.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.IPbxDate)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PbxFondo)).EndInit();
-            this.PnlTitulo.ResumeLayout(false);
-            this.PnlTitulo.PerformLayout();
             this.PnlUsuario.ResumeLayout(false);
             this.PnlUsuario.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.IPbxUsuario)).EndInit();
+            this.PanelLogo.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.PbxHome)).EndInit();
+            this.PnlForms.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.PbxFondo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.IPbxDate)).EndInit();
+            this.PnlTitulo.ResumeLayout(false);
+            this.PnlTitulo.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.IPbxMinimize)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.IPbxMaximize)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.IPbxClose)).EndInit();

@@ -17,7 +17,7 @@ namespace PE26A_FSA_
             InitializeComponent();
         }
 
-        private void ConvierteFAC_Click(object sender, EventArgs e)
+        public void ConvierteFAC_Click(object sender, EventArgs e)
         {
             double Resultado;
 
@@ -58,6 +58,6 @@ namespace PE26A_FSA_
             return F;
         }
 
-        
+ 
     }
 }
